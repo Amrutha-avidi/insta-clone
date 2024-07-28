@@ -1,0 +1,103 @@
+.login-con {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+  min-height: 100vh;
+}
+.login-con img {
+  width: 582px;
+  height: 373px;
+
+  gap: 0px;
+  opacity: 0px;
+}
+.login-cred {
+  background-color: white;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 376px;
+  height: 378px;
+}
+
+.logo-con {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.logo-con img {
+  width: 82px;
+  height: 42px;
+  margin-bottom: 0px;
+}
+
+.login-con h2 {
+  margin: 0;
+  font-size: 20px;
+}
+.login-cred div {
+  display: flex;
+  flex-direction: column;
+  margin: 10px 0px;
+}
+form {
+  gap: 0px;
+}
+form div {
+  gap: 10px;
+}
+form div input {
+  width: 300px;
+  height: 22px;
+  gap: 10px;
+  background-color: rgb(219, 219, 219);
+  border-radius: 5px;
+  border: 0;
+  padding: 15px 15px;
+}
+
+form div label {
+  font-size: 14px;
+  font-weight: bold;
+  color: rgb(22, 22, 22);
+}
+
+form button {
+  margin-top: 30px;
+  border: 0;
+  border-radius: 10px;
+  background-color: #0275d8;
+  color: white;
+  width: 330px;
+  height: 35px;
+}
+.error-msg {
+  color: Red;
+  font-size: 15px;
+}
+@media (max-width: 768px) {
+  form button {
+    width: 280px;
+    height: 35px;
+  }
+  form div input {
+    width: 250px;
+    height: 15px;
+  }
+  .login-image {
+    display: none;
+  }
+  .login-cred .login-con {
+    width: 312px;
+    height: 216px;
+  }
+  .logo-con img {
+    width: 78px;
+    height: 40px;
+  }
+}

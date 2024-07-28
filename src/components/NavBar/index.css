@@ -1,0 +1,123 @@
+.navbar-con {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.navbar-con div:first-child {
+  display: flex;
+  align-items: center;
+}
+
+.navbar-con div:first-child img {
+  width: 59px;
+  height: 30px;
+  top: 17px;
+  left: 200px;
+}
+.navbar-con div:first-child h3 {
+  margin-left: 15px;
+  font-family: Roboto;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 24px;
+  text-align: left;
+}
+.nav-menu {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  gap: 30px;
+}
+
+.burger-con {
+  display: none;
+}
+.navbar-con div:last-child {
+  gap: 30px;
+}
+.search-con {
+  display: flex;
+  gap: 0;
+  width: 214px;
+  height: 28px;
+  top: 18px;
+  left: 781px;
+  gap: 0px;
+  opacity: 0px;
+}
+.search-con input {
+  width: 214px;
+  height: 28px;
+  top: 18px;
+  left: 781px;
+  gap: 0px;
+  border-radius: 3px 0px 0px 0px;
+  border: 1px 0px 0px 0px;
+  opacity: 0px;
+}
+.search-con button {
+  width: 34px;
+  height: 28px;
+  top: 19px;
+  left: 960px;
+  gap: 0px;
+  border-radius: 0px 2px 2px 0px;
+  opacity: 0px;
+  text-align: center;
+}
+.logout {
+  width: 86px;
+  height: 32px;
+  background-color: rgb(37, 150, 190);
+  color: white;
+  border-radius: 7px;
+  border: 0;
+}
+@media (max-width: 768px) {
+  .search-con input {
+    width: 140px;
+    height: 22px;
+  }
+  .search-con button {
+    height: 22px;
+  }
+  .burger-con {
+    display: block;
+  }
+  .nav-menu {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    background-color: rgb(250, 252, 253);
+    padding: 5px 10px;
+    position: absolute;
+    width: 200px;
+    height: 30vh;
+    top: -900px;
+    right: 0;
+    z-index: 10;
+  }
+  .nav-menu.active {
+    top: 7%;
+
+    transition: all 0.3s ease-in;
+  }
+  .navbar-con {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 30px;
+  }
+
+  .navbar-con div:first-child img {
+    width: 39px;
+    height: 20px;
+  }
+  .navbar-con div:first-child h3 {
+    font-size: 15px;
+    margin-left: 5px;
+  }
+}

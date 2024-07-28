@@ -1,0 +1,149 @@
+.profile-con {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: #fafafa;
+}
+.bio-con {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 80px;
+}
+
+.profile-pic {
+  width: 190px;
+  height: 190px;
+  top: 97px;
+  left: 200px;
+  gap: 0px;
+  border-radius: 90px 0px 0px 0px;
+  opacity: 0px;
+}
+.sub-bio {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+
+.sub-bio h1 {
+  font-family: Roboto;
+  font-size: 32px;
+  font-weight: 300;
+  line-height: 32px;
+  color: #262626;
+  margin-bottom: 5px;
+  margin-left: 0;
+}
+.sub-bio div {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  gap: 45px;
+  margin: 0;
+}
+.sub-bio div p {
+  font-family: Roboto;
+  font-size: 19px;
+  font-weight: 500;
+  line-height: 24px;
+  margin-bottom: 5px;
+  margin-left: 0;
+}
+.sub-bio span {
+  font-family: Roboto;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 24px;
+}
+.sub-bio h3 {
+  font-family: Roboto;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 24px;
+  color: #262626;
+}
+.bio-para {
+  font-family: Roboto;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  text-align: left;
+}
+.stories-con {
+  display: flex;
+  flex-direction: row;
+  /* align-self: flex-start; */
+
+  gap: 40px;
+  padding: 20px;
+}
+.story-image {
+  border-radius: 50%;
+  width: 86px;
+  height: 86px;
+
+  border: 1px 0px 0px 0px;
+  opacity: 0px;
+}
+.posts-head-con {
+  display: flex;
+  flex-direction: row;
+  justify-self: flex-start;
+  align-items: center;
+  gap: 15px;
+}
+.posts-head-con h1 {
+  font-family: Roboto;
+  font-size: 26px;
+  font-weight: 500;
+}
+.posts-main {
+  display: flex;
+  flex-direction: column;
+}
+.posts-con {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.post-image {
+  margin: 10px;
+  width: 330px;
+  height: 330px;
+  top: 547px;
+  left: 555px;
+  gap: 0px;
+  opacity: 0px;
+}
+.line {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.line hr {
+  border: 1px solid gray;
+  width: 60vw;
+}
+.no-posts-con {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.no-posts-con h1 {
+  font-family: Roboto;
+  font-size: 32px;
+  font-weight: 300;
+  line-height: 48px;
+  text-align: left;
+}
+.no-posts-icon {
+  border: 1px solid black;
+  border-radius: 50%;
+  padding: 15px;
+}
