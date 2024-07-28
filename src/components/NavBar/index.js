@@ -41,10 +41,12 @@ const NavBar = () => {
         return (
           <div className="navbar-con">
             <div>
-              <img
-                src="https://res.cloudinary.com/drpddho9b/image/upload/v1718256221/logo_z0fn9m.png"
-                alt="logo"
-              />
+              <Link to="/">
+                <img
+                  src="https://res.cloudinary.com/drpddho9b/image/upload/v1718256221/logo_z0fn9m.png"
+                  alt="website logo"
+                />
+              </Link>
               <h3>Insta Share</h3>
             </div>
             <div className={`nav-menu ${isOpen ? 'active' : ''}`}>
@@ -53,6 +55,7 @@ const NavBar = () => {
                   type="search"
                   value={searchText}
                   onChange={onChangeSearch}
+                  placeholder="Search Caption"
                 />
                 <button type="button" onClick={searchComponentStatusChange}>
                   {' '}

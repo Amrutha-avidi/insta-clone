@@ -103,7 +103,13 @@ const Stories = () => {
 
   const getLoadingView = () => (
     <div data-testid="loader" className="failed-con">
-      <Loader type="TailSpin" color="#2396BE" height="50" width="50" />
+      <Loader
+        type="TailSpin"
+        color="#2396BE"
+        height="50"
+        width="50"
+        testid="loader"
+      />
     </div>
   )
 
